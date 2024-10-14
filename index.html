@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Age Calculator Project</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1>Age Calculator</h1>
+            </header>
+            <div class="calculate-container">
+                <div class="input-group">
+                    <label for="birthYear">
+                        Enter Your Date of Birth :
+                    </label>
+                    <input type="date" id="birthYear">
+
+                </div>
+                <div class="button-group">
+                    <button id="calculate" class="calculate-btn">Calculate</button>
+
+                    <button id="reset" class="reset-btn">Reset</button>
+                </div>
+                <div class="result-display">
+                    <p id="ageDisplay">Your age will apear here</p>
+                    <p id="weekDisplay"></p>
+                    <p id="dayDisplay"></p>
+
+                </div>
+            </div>
+            <footer class="footer">
+                <p> &copy; 2024. age Calculator. All rights reserved</p>
+                 
+            </footer>
+        </div>
+        
+        
+        <script src="./main.js"></script>
+    </body>
+</html>
